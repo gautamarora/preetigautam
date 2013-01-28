@@ -155,14 +155,29 @@ $(function()
 		$("#div-m").slideToggle();
 		});
 		
-		$("#music-control").click(function(event) {
-		    var status = $("#music-control img").attr("src") == "_images/music-on.png" ? "play" : "pause";
+		$("#music-control-top").click(function(event) {
+		    var status = $("#music-control-top img").attr("src") == "_images/music-on.png" ? "play" : "pause";
 		    if(status == "play") {
 		        $("#music-player").jPlayer("pause");
-		        $("#music-control img").attr("src", "_images/music-off.png");
+		        $("#music-control-top img").attr("src", "_images/music-off.png");
+		        $("#music-control-hidden img").attr("src", "_images/music-off.png");
 	        } else {
 	            $("#music-player").jPlayer("play");
-		        $("#music-control img").attr("src", "_images/music-on.png");
+		        $("#music-control-top img").attr("src", "_images/music-on.png");
+		        $("#music-control-hidden img").attr("src", "_images/music-on.png");
+	        }
+	    });
+
+		$("#music-control-hidden").click(function(event) {
+		    var status = $("#music-control-top img").attr("src") == "_images/music-on.png" ? "play" : "pause";
+		    if(status == "play") {
+		        $("#music-player").jPlayer("pause");
+		        $("#music-control-top img").attr("src", "_images/music-off.png");
+		        $("#music-control-hidden img").attr("src", "_images/music-off.png");
+	        } else {
+	            $("#music-player").jPlayer("play");
+		        $("#music-control-top img").attr("src", "_images/music-on.png");
+		        $("#music-control-hidden img").attr("src", "_images/music-on.png");
 	        }
 	    });
 		
