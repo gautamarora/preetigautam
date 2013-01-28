@@ -1,0 +1,45 @@
+/*-----------------------------------------------------------------------------------
+	Theme Name: MJ
+	Theme URI: http://themes.pulyavserdce.com
+/*-----------------------------------------------------------------------------------*/
+
+@charset "utf-8";
+
+
+/*--------------------------------------------------------
+	1.Desktops
+--------------------------------------------------------*/
+
+@media screen {
+
+	.container{width:942px;}
+	.menu, .hidden-menu{width:942px;letter-spacing:1px;}
+	#menu ul, #hidden-menu ul{padding-left:119px;}
+	.footer{width:942px;}
+	.page{width:722px;padding-left:110px;padding-right:110px;}
+	.join-us{width:650px;}
+	.date-n-place{font-size:22px;}
+	.celebrate-fix{}
+	.end-line{width:650px;}
+	#slides-story{width:772px;height:365px;}
+	.slide-control{width:732px;}
+	#slides-story .next, #slides-story .prev{margin-top:-30px;}
+	.quota-01, .quota-02{width:47%;}
+	.quota-01{margin-left:20px;}
+	.image-area{height:350px!important;}
+	.image-area-list li a {margin:9px;}
+	#slides{margin:auto;width:690px;height:375px;}
+	#slides .slides_container{width:690px;}
+	.caption-02{width:450px;margin-left:15px;}
+	.registry-area{padding-top:60px;height:340px;}
+	.registry-list li a {margin:7px;}
+	.oot-01, .oot-02, .oot-03{width:240px;}
+	.close {right:190px;}
+	#directions .area{min-height:400px;}
+}
+	
+/*--------------------------------------------------------
+	2.Tablets (800x600 - 600x800)
+--------------------------------------------------------*/
+
+/* For tablet versions, please, see the documentation for further informations */
