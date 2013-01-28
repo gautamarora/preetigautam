@@ -80,7 +80,7 @@ $(document).ready(function(){
       $("#music-player").jPlayer({
         ready: function() {
           $(this).jPlayer("setMedia", {
-            mp3: "_music/splitsvilla.m4a"
+            mp3: "_music/splitsvilla.mp3"
           }).jPlayer("play");
           var click = document.ontouchstart === undefined ? 'click' : 'touchstart';
           var kickoff = function () {
