@@ -73,6 +73,8 @@ $(document).ready(function(){
 //pretty-image
 $(document).ready(function(){
 	$(".image-area a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'dark_square',slideshow:2000, autoplay_slideshow: false});
+	$("#slides .prev").css('display', 'block');
+	$("#slides .next").css('display', 'block');
 });
 
 //play-music
