@@ -119,41 +119,41 @@ $(function()
 	$(function()
 	{
 
-		$("#m1").click(function(event) {
-		event.preventDefault();
-		$("#div-m").slideToggle();
-		$("#div-h").slideToggle();
-		});
-		
-		$("#m2").click(function(event) {
-		event.preventDefault();
-		$("#div-m").slideToggle();
-		$("#div-r").slideToggle();
-		});
-		
-		$("#m3").click(function(event) {
-		event.preventDefault();
-		$("#div-m").slideToggle();
-		$("#div-o").slideToggle();
-		});
+        // $("#m1").click(function(event) {
+        // event.preventDefault();
+        // $("#div-m").slideToggle();
+        // $("#div-h").slideToggle();
+        // });
+        // 
+        // $("#m2").click(function(event) {
+        // event.preventDefault();
+        // $("#div-m").slideToggle();
+        // $("#div-r").slideToggle();
+        // });
+        // 
+        // $("#m3").click(function(event) {
+        // event.preventDefault();
+        // $("#div-m").slideToggle();
+        // $("#div-o").slideToggle();
+        // });
 	
-		$("#h").click(function(event) {
-		event.preventDefault();
-		$("#div-h").slideToggle();
-		$("#div-m").slideToggle();
-		});
-		
-		$("#r").click(function(event) {
-		event.preventDefault();
-		$("#div-r").slideToggle();
-		$("#div-m").slideToggle();
-		});
-	
-		$("#o").click(function(event) {
-		event.preventDefault();
-		$("#div-o").slideToggle();
-		$("#div-m").slideToggle();
-		});
+        // $("#h").click(function(event) {
+        // event.preventDefault();
+        // $("#div-h").slideToggle();
+        // $("#div-m").slideToggle();
+        // });
+        // 
+        // $("#r").click(function(event) {
+        // event.preventDefault();
+        // $("#div-r").slideToggle();
+        // $("#div-m").slideToggle();
+        // });
+        //  
+        // $("#o").click(function(event) {
+        // event.preventDefault();
+        // $("#div-o").slideToggle();
+        // $("#div-m").slideToggle();
+        // });
 		
 		$("#music-control-top").click(function(event) {
 		    var status = $("#music-control-top img").attr("src") == "_images/music-on.png" ? "play" : "pause";

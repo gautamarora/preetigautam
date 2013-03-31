@@ -63,7 +63,7 @@
 	h3{font:14px/21px TitilliumMedium, Candara, Arial, sans-serif;color:#666666;margin-bottom:12px;padding-left:8px;background-image:url(../_images/h.png);background-position:0px 3px;background-repeat:no-repeat;}
 	h4{font:13px/18px TitilliumLight, Candara, Arial, sans-serif;color:#8e8e8e;font-weight:normal;padding:10px;}
 	h5{font:14px/21px TitilliumMedium, Candara, Arial, sans-serif;color:#666666;margin-top:12px;margin-bottom:12px;padding-left:8px;}
-	h6{font:22px/38px BebasNeueRegular, Candara, Arial, sans-serif;color:#333333;padding-left:10px;}
+	h6{font:22px/38px TitilliumMedium, Candara, Arial, sans-serif;color:#333333;padding-left:10px;}
 	
 /*--------------------------------------------------------
 	2.Menu
@@ -83,8 +83,8 @@
 	
 	#menu, #hidden-menu{width:100%;}
 	#menu ul, #hidden-menu ul {list-style-type:none;}
-	#menu ul li {float:left;padding-top:20px;text-align:center;}
-	#hidden-menu ul li {float:left;padding-top:5px;text-align:center;}
+	#menu ul li {float:left;padding-top:20px;text-align:center;padding-left:20px;}
+	#hidden-menu ul li {float:left;padding-top:5px;text-align:center;padding-left:20px;}
 	
 	.footer{padding-top:20px;height:55px;position:fixed;bottom:0px;z-index:10000;background-color:#ffffff;text-align:center;border-top:1px solid #efefef;background-image:url(../_images/border2.png);background-position:0px 0px;background-repeat:repeat-x;}
 	#footer-logo{margin-left:20px;margin-right:20px;background-image:url(../_images/lines.png);background-position:0px 10px;background-repeat:repeat-x;}
@@ -108,7 +108,7 @@
 	@media screen and (min-height: 1000px) and (max-height: 1200px){.page{width:722px;height:500px;padding-left:110px;padding-right:110px;padding-top:30%;padding-bottom:26%;}}
 	@media screen and (min-height: 1200px){.page{width:722px;height:500px;padding-left:110px;padding-right:110px;padding-top:50%;padding-bottom:26%;}}
 
-	.border{background-color:#ffffff;padding:5px;border:1px solid #dddddd;}
+	.border{background-color:#ffffff;padding:40px 5px 5px 55px;}
 	.border-thb{background-color:#ffffff;padding:2px;border:1px solid #dddddd;}	
 	
 	/*----------------------------
@@ -153,7 +153,7 @@
 	.image-area{width:100%;}
 	.image-area-list {margin-left:3px;padding:3px 3px;float:left;}
 	.image-area-list li {float:left;list-style:none;}
-	.image-area-list li a {display:block;width:70px;height:70px;float:left;background:#f9f9f9;}
+	.image-area-list li a {display:block;width:140px;height:70px;float:left;}
 	
 	/*----------------------------
 	iv.-- events
@@ -167,7 +167,7 @@
 	#slides .prev{float:left;left:10px;background-image:url(../_images/prev.png);background-repeat:no-repeat;}
 	#slides .next{float:left;left:40px;background-image:url(../_images/next.png);background-repeat:no-repeat;}
 	#slides .pagination{display:none;}
-	.caption {z-index:500;width:100%;position:absolute;top:240px;left:0;padding-right:10px;}
+	.caption {z-index:500;width:100%;position:absolute;top:240px;left:0;}
 	.caption-01 {width:224px;float:left;margin-top:20px;border-right:1px solid #dddddd;letter-spacing:1px;}
 	.caption-02{float:left;}
 	
@@ -190,6 +190,8 @@
 	#div-m, #div-h, #div-r, #div-o{height:400px;}
 	.oot-01, .oot-02, .oot-03{float:left;font-weight:normal;}
 	.oot-02, .oot-03{margin-left:0px;}
+	#out-of-towners h4{padding:2px;}
+	#out-of-towners h4 a{padding:2px;text-decoration:underline;}
 	a.links{padding:3px;background-color:#b5121b;color:#333333;}
 	
 	.close {position:absolute;width:45px;height:45px;z-index:1000;margin-top:-30px;}
@@ -209,4 +211,4 @@
 	#thank-you{text-align:left;}
 	#thank-you .area{min-height:355px;}
 	#thank-you .section-01, #thank-you .section-02{width:43%;height:400px;margin-left:10px;float:left;}
-	#thank-you .section-02{margin-left:60px;}
+	#thank-you .section-02{}
